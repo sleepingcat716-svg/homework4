@@ -3,13 +3,12 @@
 
 function isEven(Number) {
   if (Number%2 === 1){
-    console.log(false)
+   return console.log(false)
   } else if (Number%2 === 0) { 
-    console.log(true)
+   return console.log(true)
   }
      
 }
 
 
 
-isEven(1)

@@ -1,8 +1,8 @@
-// Напишите функцию calculateAverage, которая принимает 2 числа и возвращает их среднее арифметическое
+// Напишите функцию calculateAverage, которая принимает 2 числа и возвращает их среднее арифметическо}
+
 function calculateAverage(Number1, Number2) {
     let c = (Number1 + Number2)/ 2
-    console. log (c)
+   return console. log (c)
 }
 
 calculateAverage(10, 20)
-
