@@ -1,13 +1,13 @@
 // Разработайте функцию findLargest, которая принимает три числа и возвращает наибольшее из них.
 
-function findLargest(Number1, Number2, Number3) {
-    if (Number1 > Number2 && Number1 > Number3 || Number1 === Number2 && Number1 === Number3 ||
-         Number1 === Number2 && Number1 > Number3 ) {
-       return Number1
-    } else if (Number2 > Number1 && Number2 > Number3 || Number2 === Number3 && Number2 > Number1) {
-        return Number2
-    } else if (Number3 > Number1 && Number3 > Number2 || Number3 === Number1 && Number3 > Number2) {
-        return Number3
+function findLargest(num1, num2, num3) {
+    if (num1 > num2 && numb1 > num3 || num1 === num2 && num1 === num3 ||
+         num1 === num2 && num1 > num3 ) {
+       return num1
+    } else if (num2 > num1 && num2 > num3 || num2 === num3 && num2 > num1) {
+        return num2
+    } else if (num3 > num1 && num3 > num2 || num3 === num1 && num3 > num2) {
+        return num3
     } 
 }
 
