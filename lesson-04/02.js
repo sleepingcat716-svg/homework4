@@ -17,15 +17,15 @@
 Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
+
 function findUniqueElements(array) {
-    for (let i = 0; i < array.length; i++) {
-        for (let j = i + 1; j < array.length; j++){
-        if (array[i] === array[j]){
-     array.splice(i)
-    console.log(array)}
-}
-}
+    for (let i = array.length - 1; i >= 0; i--) {
+        if (array.indexOf(array[i]) !== i) {
+            array.splice(i, 1); 
+        }
+    }
+    return array;
 }
 
 
-findUniqueElements([1, 2, 3, 2, 1, 4])
+console.log(findUniqueElements([1, 2, 3, 2, 1, 4]))
