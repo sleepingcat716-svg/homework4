@@ -21,8 +21,9 @@ for (let i = array1.length - 1; i >= 0; i--) {
 } for (let i = 0; i < array1.length; i++) {
     array2 += array1[i];
     if (i < array1.length - 1) {
-        array2 += ' '
+        array2 += ''
     }
 }
 return array2
 }
+
