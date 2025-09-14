@@ -27,3 +27,5 @@ for (let i = array1.length - 1; i >= 0; i--) {
 return array2
 }
 
+console.log(doubleEachCharacter('hello'))
+
