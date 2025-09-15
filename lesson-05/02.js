@@ -39,17 +39,13 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery(gallery1, objektGallery, titlOfTheWork) {
-const newGallerykey = Object.keys(gallery);
+function updateGallery(gallery, objektGallery, titlOfTheWork) {
 
-for (let i = 0; i < newGallerykey.length; i++ ){
-  if (objektGallery === newGallerykey[i]){
    gallery[objektGallery] = titlOfTheWork;
-  return gallery} else if (!newGallerykey.includes(objektGallery)) {gallery[objektGallery] = titlOfTheWork;
-  return gallery }
-  }
-
+   return gallery
 }
+   
+
 
 
 updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
