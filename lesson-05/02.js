@@ -45,8 +45,8 @@ const newGallerykey = Object.keys(gallery);
 for (let i = 0; i < newGallerykey.length; i++ ){
   if (objektGallery === newGallerykey[i]){
    gallery[objektGallery] = titlOfTheWork;
-  } else {gallery[objektGallery] = titlOfTheWork;
-  }
+  return gallery} else {gallery[objektGallery] = titlOfTheWork;
+  return gallery }
   }
 }
 
